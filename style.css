@@ -171,3 +171,46 @@ img{
 .ptb_100{
     padding: 100px 0;
 }
+
+/* Header */
+/* Header */
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    z-index: 999;
+    -webkit-transition: .3s;
+    transition: .3s;
+    background: transparent;
+}
+.navbar .mavbar-nav .nav-link{
+    padding: 1.875rem 1.25rem;
+    color: var(--text-white);
+    text-transform: capitalize;
+    transition: .3s;
+}
+.navbar-brand img{
+    max-width: 50%;
+}
+
+/* On scroll Fixed Navbar */
+.navbar-sticky-on .navbar-nav .nav-link:hover,
+.navbar-sticky-on .navbar-nav .nav-link.active{
+    color: var(--text-light-pink) !important;
+}
+.navbar-sticky-on .navbar-nav .nav-link{
+    color: var(--text-light-gray);
+}
+.navbar .navbar-brand-sticky{
+    display: none;
+}
+.navbar-sticky-on .navbar-brand-regular{
+    display: none;
+}
+.navbar-sticky-on .navbar-brand-sticky{
+    display: inline;
+}
