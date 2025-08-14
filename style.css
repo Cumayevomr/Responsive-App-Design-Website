@@ -21,3 +21,129 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+:root{
+
+    /* Background Color */
+    --bg-white: #fff;
+    --bg-black: #2C2C2C;
+    --bg-light-pink: rgb(157, 15, 160);
+    --bg-light-gray: #f6f9fe;
+    --bg-gradient: linear-gradient(to top, rgb(157, 15, 160) 0%, rgba 142, 0, 116, 1 100% );
+    --bg-card-shadow: 0 0.188rem 1.25rem 0px rgba(0, 0, 0,0.06);
+    --bg-card-shadow: 0 2rem 5rem rgba(0, 0, 0,0.06);
+    --bg-light-gray-1: #fff;
+
+
+    /* Text Color */
+    --primary-font:"Poppins", sans-serif;;
+    --text-white: #fff;
+    --text-black: #2C2C2C;
+    --text-light-black: #444;
+    --text-light-pink: rgb(157, 15, 160);
+    --text-light-gray: #7e8085;
+}
+
+
+/* Common Css */
+
+
+body {
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    line-height: 1.75rem;
+    background: var(--bg-white);
+    color: var(--text-black);
+    overflow-x: hidden;
+}
+h1{
+    color: var(--text-white);
+    font-size: 3.563rem;
+    line-height: 4.563rem;
+    letter-spacing: 0.125rem;
+    font-weight: 400;
+}
+
+h3{
+    color: var(--text-black);
+    font-size: 2.875rem;
+    line-height: 3.75rem;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 1.563rem;
+    font-weight: 400;
+    color: var(--text-black);
+    line-height: 2.375rem;
+}
+
+h5{
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: 0.063rem;
+    line-height: 1.688rem;
+    color: var(--text-light-pink);
+    text-transform: uppercase;
+}
+
+section,
+.section{
+    position: relative;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+p {
+    margin-bottom: 0;
+}
+a {
+    color: var(--text-light-black);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+a:hover,
+a:focus{
+    color: var(--text-light-pink);
+}
+
+a,
+a:hover,
+a:focus,
+.btn:focus{
+    text-decoration: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+ol,
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ol li,
+ul li{
+    list-style: none;
+}
+button,
+button:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+}
+.btn {
+    
+}
