@@ -35,9 +35,9 @@
     --bg-black: #2C2C2C;
     --bg-light-pink: rgb(157, 15, 160);
     --bg-light-gray: #f6f9fe;
-    --bg-gradient: linear-gradient(to top, rgb(157, 15, 160), 0%, rgba 142, 0, 116, 1 100% );
+    --bg-gradient: linear-gradient(to top, rgb(157, 15, 160) 0%, rgba(142, 0, 116, 1) 100%);
     --bg-card-shadow: 0 0.188rem 1.25rem 0px rgba(0, 0, 0,0.06);
-    --bg-card-shadow: 0 2rem 5rem rgba(0, 0, 0,0.06);
+    --box-shadow: 0 2rem 5rem rgba(0, 0, 0,0.06);
     --bg-light-gray-1: #fff;
 
 
@@ -77,7 +77,7 @@ h3{
     font-weight: 400;
 }
 
-h3{
+h4{
     font-size: 1.563rem;
     font-weight: 400;
     color: var(--text-black);
@@ -495,4 +495,20 @@ img:not(:root).svg-inline--fa{
 .single_feature:hover{
     color: var(--text-white);
     background-color: var(--bg-light-pink);
+}
+
+/* app-screenshots css */
+.app-screen{
+    padding-bottom: 5.313rem;
+}
+.app-screen .swiper-slide{
+    width: 263px !important;
+    height: auto;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+    margin: 0 0.5rem;
+}
+.swiper-pagination-bullet{
+    width: 0.75rem;
+    height: 0.75rem;
 }
