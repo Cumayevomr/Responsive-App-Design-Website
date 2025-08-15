@@ -635,3 +635,14 @@ img:not(:root).svg-inline--fa{
     outline: none;
     border: none;
 }
+
+/* Footer Css */
+/* Footer Css */
+
+.copyright{
+    background-color: var(--bg-light-pink);
+}
+.copyright p,
+.copyright a{
+    color: var(--text-white);
+}
