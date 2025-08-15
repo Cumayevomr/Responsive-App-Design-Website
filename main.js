@@ -18,7 +18,6 @@ function navMenu() {
             navBar.classList.remove("navbar-sticky-transitioned");
             // scrollTopButton.classList.remove("scrollActive");
         }
-
         // Sticky On
         if(scroll >= 500){
             navBar.classList.add("navbar-sticky-on");
