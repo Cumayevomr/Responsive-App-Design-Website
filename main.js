@@ -3,7 +3,6 @@
 function navMenu() {
     let navBar = document.querySelector('.navbar-sticky');
     let scrollTopButton = document.querySelector('#scrollup');
-
     window.onscroll = function () {
         var scroll = document.documentElement.scrollTop;
         if(scroll >= 120){
@@ -11,14 +10,13 @@ function navMenu() {
         } else {
             navBar.classList.remove("navbar-sticky-moved-up");
         }
-
         //  Apply Transition
         if(scroll >= 250){
             navBar.classList.add("navbar-sticky-transitioned");
-            scrollTopButton.classList.add("scrollActive");
+            // scrollTopButton.classList.add("scrollActive");
         } else {
             navBar.classList.remove("navbar-sticky-transitioned");
-            scrollTopButton.classList.remove("scrollActive");
+            // scrollTopButton.classList.remove("scrollActive");
         }
 
         // Sticky On
@@ -52,6 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
     counter("count3", 0,30,4000);
     counter("count4", 0,10,2000);
 });
+
 
 // APP-SCREEN
 
