@@ -2,6 +2,9 @@
     
 
 
+    .margin_top_up{
+        margin-top: -25rem;
+    }
 
 }
 @media (max-width: 991px) {
@@ -75,8 +78,11 @@
     .home-image img{
         max-width: 60%;
     }
-}
 
+
+
+
+}
 
 
 
@@ -90,10 +96,7 @@
         padding: 0 1.25rem;
     }
 
-
-
-
-
+    
     #home{
         padding-top: 5rem;
     }
@@ -107,5 +110,34 @@
     .home-image {
         text-align: center;
         transform: rotate(0deg);
+    }
+
+
+
+
+
+    .single_counter:nth-child(2)::after{
+        display: none;
+    }
+
+
+
+
+
+    .mobile_px_20{
+        padding: 0 1.25rem;
+    }
+    .margin_top_up{
+        margin-top: 0rem;
+    }
+    .features_middle{
+        text-align: center;
+    }
+    .feature_img{
+        text-align: center;
+        padding-top: 1.5rem;
+    }
+    .feature_img img{
+        max-width: 95%;
     }
 }

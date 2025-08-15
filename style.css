@@ -482,7 +482,8 @@ img:not(:root).svg-inline--fa{
     overflow: visible;
 }
 .svg-inline--fa.fa-w-12{
-    width: .75rem;
+    width: 1.6rem;
+    height: 1.6rem;
 }
 .svg-inline--fa{
     display: inline-block;
