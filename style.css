@@ -347,14 +347,14 @@ img{
 .promo_section{
     padding: 6.25rem 0 4rem;
 }
-.section_headling{
+.section_heading{
     margin-bottom: 2.813rem;
 }
-.section_headling > h2 {
+.section_heading > h2 {
     position: relative;
     padding-bottom: 2.5rem;
 }
-.section_headling > h2::after{
+.section_heading > h2::after{
     position: absolute;
     content: '';
     height: 0.125rem;
@@ -365,7 +365,7 @@ img{
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
-.section_headling h2 span {
+.section_heading h2 span {
     font-weight: 400;
     font-size: 2rem;
 }
@@ -456,8 +456,8 @@ img{
     padding: 2.5rem 2.5rem 2.438rem 3.125rem;
     position: relative;
     border-radius: 1.563rem;
-    -webkit-box-shadow: 0 0.938rem 2.5rem 0 rgb(0 0 0 / 18%);
-    box-shadow: 0 0.938rem 2.5rem 0 rgb(0 0 0 / 18%);
+    -webkit-box-shadow: 0 0.938rem 2.5rem 0 rgb(0 0 0 / 8%);
+    box-shadow: 0 0.938rem 2.5rem 0 rgb(0 0 0 / 8%);
     -webkit-transition: all .2s ease-in;
     -moz-transition: all .2s ease-in;
     -ms-transition: all .2s ease-in;
