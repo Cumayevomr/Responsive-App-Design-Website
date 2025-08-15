@@ -21,6 +21,9 @@
     
 
 
+
+
+    
     .navbar{
         padding-top: 0.625rem;
         padding-bottom: 0.75rem;
@@ -80,14 +83,15 @@
     }
 
 
+    /* Pricing Css */
+    /* Pricing Css */
+
+    .single_price{
+        margin-bottom: 2.5rem;
+    }
 
 
 }
-
-
-
-
-
 @media (max-width: 767px) {
 
 
